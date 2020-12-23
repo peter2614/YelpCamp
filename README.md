@@ -12,3 +12,8 @@
 * Client-Side Form validation
 * Custom ErrorHandler Class
 * JOI Schema Validation Middleware
+
+## Review Functionality
+* Created Reviews model
+* Added review form for campground
+* Validate review on Client Side and Server Side
