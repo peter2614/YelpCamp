@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const cities = require('./cities');
 const {places, descriptors} = require('./seedHelpers');
 
-
 const Campground = require('../models/campground');
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
@@ -27,6 +26,7 @@ const seedDB = async () => {
     const random1000 = Math.floor(Math.random() * 1000);
     const price = Math.floor(Math.random() * 20) + 10;
     const camp = new Campground({
+      author: '5fed2096f1c6d30770413e5b',
       location: `${cities[random1000].city}, ${cities[random1000].state}`,
       title: `${sample(descriptors)} ${sample(places)}`,
       image: 'https://source.unsplash.com/collection/483251',
