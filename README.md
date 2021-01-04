@@ -9,15 +9,20 @@
 * Bootstrap 5
 
 ## Set up Campground
-##### Pages
+#### Pages
 * Show campgrounds
 * Create campground
 * Edit campground
 * Delete campground
-##### Review Functionality
+#### Review Functionality
 * Created Reviews model
 * Added review form for campground
 * Validate review on Client Side and Server Side
+* User can rate campgrounds
+* Using startability css for rating stars
+#### Image Upload
+* Using Cloudinary to store images
+* Store image url to MongoDB
 
 ## Error handle for Client-Side and Server-Side
 * Client-Side Form validation
@@ -34,4 +39,13 @@
 * Added Registration, Login, Logout page
 * Added returnTo behavior (remember last stage of user, and redirect back to the page once logged in)
 
+## Middleware
+* Connect-Flash - session used for storing messages
+* Multer - for parsing formData
 
+## Modules
+* Dotenv - loads environment variables from .env file to porocess.env
+* Multer Storage Cloudinary
+
+## Virtual Property
+* For modifying the path in the url
