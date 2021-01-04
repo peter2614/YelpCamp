@@ -29,7 +29,7 @@
 * Custom ErrorHandler Class
 * JOI Schema Validation Middleware
 
-## Added Flash
+## Added Connect-Flash
 * Created Flash messages using Bootstrap alert
 * Added 'success' and 'error' for displaying flash messages
 * Refactor into middleware
@@ -49,3 +49,7 @@
 
 ## Virtual Property
 * For modifying the path in the url
+
+## Tools
+* Mapbox - Forward geocoding
+* Mapbox GL - For map
