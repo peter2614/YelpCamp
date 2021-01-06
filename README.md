@@ -54,3 +54,8 @@
 * Mapbox - Forward geocoding
 * Mapbox GL - For map
 * Custer map
+* Express Mongoose Sanitize
+* JOI extension
+* Helmet
+* MongoDB Atlas
+* Connect-mongo - session storage
